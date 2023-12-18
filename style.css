@@ -1,13 +1,13 @@
 @font-face {
   font-family: playfair;
   src: url("./assets/font/playfair-display/PlayfairDisplay-Regular.otf");
-  font-display:swap;
+  font-display: swap;
 }
 @font-face {
   font-family: playfair;
   src: url("./assets/font/playfair-display/PlayfairDisplay-Bold.otf");
   font-weight: bold;
-  font-display:swap
+  font-display: swap;
 }
 
 :root {
@@ -234,10 +234,12 @@ button:active {
   }
   .text-desc-area {
     display: grid;
-    grid-template-rows: 7.5rem 1fr 3rem 120px;
+    grid-template-rows: 9.5rem 1fr 2.5rem 120px;
     > h2 {
       text-align: left;
+      align-self: flex-end;
       justify-self: left;
+
       font-size: 3.5rem;
       grid-row: 1;
       position: initial;
